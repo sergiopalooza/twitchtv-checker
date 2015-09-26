@@ -16,7 +16,8 @@ $(document).ready(function(){
 				$('#list').append("<div class='off'>" + name[0] + " is offline</div>");	
 			}
 			else{
-				$('#list').append("<div class='on'>" + name[0] + " is online</div>");
+				$('#list').append("<div class='on'><a href=" + data.stream.channel.url + ">" + name[0] + " is online</a></div>");
+				
 			}
 		}
 		});

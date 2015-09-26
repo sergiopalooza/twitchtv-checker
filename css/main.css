@@ -10,6 +10,10 @@ h1 {
 	color: white;
 	font-size: 2em;
 }
+
+a {
+	text-decoration: none;
+}
 .block {
 	background-color: red;
 	width: 50px;
